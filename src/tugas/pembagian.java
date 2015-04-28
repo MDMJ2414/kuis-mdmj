@@ -10,12 +10,8 @@ import java.util.Scanner;
  *
  * @author SBC4
  */
-public class Tugas {
-
-    /**
-     * @param args the command line arguments
-     */
-
+public class pembagian {
+    
         public static long rekursif (int a, int b){
         if (b==0){
            return 0;
@@ -34,12 +30,9 @@ public class Tugas {
         a=input.nextInt();//pengambilan data a
         System.out.print("Masukkan angka: ");
         b=input.nextInt();//pengambilan data b
-            System.out.println(a+"*"+b+"="+ rekursif  (a,b)); //tampilan output
+            System.out.println(a+"/"+b+"="+ rekursif  (a,b)); //tampilan output
     }
 
 
 }
-
-    
-
 
